@@ -1,0 +1,71 @@
+body{
+  /* background-color: #D3D3D3; */
+  background-image: url("stars.jpg");
+  background-repeat-y: no-repeat;
+  background-repeat-x: no-repeat;
+  font-family: Ubuntu;
+  color:#ffffff;
+  background-size: cover;
+
+}
+body *{
+  font-family: Ubuntu;
+}
+
+h1,h2,h3,h4,h5{
+  font-weight: normal;
+  margin: 0;
+}
+
+a,a:hover,a:visited{
+  color: #ffffff;
+  text-decoration: none;
+}
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+div.wrapper h1{
+  text-align: center;
+  margin: 100px;
+  font-size:2.4em;
+}
+
+header{
+  display: grid;
+}
+
+nav{
+  justify-self: end;
+}
+nav li{
+  display: inline-block;
+  margin-left:20px;
+}
+
+nav button{
+  background: none;
+  color: #ffffff;
+  cursor:pointer;
+  border: 0;
+  font-size: 1.2em;
+}
+.articles{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.article{
+  padding: 10px;
+  border: 1px solid #00dba0;
+  position : relative;
+  padding-bottom: 40px;
+}
+.article h2{
+  font-size: 1.2em;
+}
+
+.article-detail .article{
+  text-align:center;
+}
